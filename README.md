@@ -1,2 +1,2 @@
 # iving_applet_ping
-iving applet example ... 123456789 abc
+iving applet example ... 123456789 abc def
