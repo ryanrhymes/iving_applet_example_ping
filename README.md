@@ -1,2 +1,2 @@
 # iving_applet_ping
-iving applet exampleabc
+iving applet example
