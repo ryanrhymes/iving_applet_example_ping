@@ -1,7 +1,7 @@
 #!/usr/bin/env ash
 
 echo "Iving Applet Example"
-echo 'hi hi hi'
+echo 'hi hi hi ...'
 ping ${PINGHOST} &
 
 echo 'hello world'
