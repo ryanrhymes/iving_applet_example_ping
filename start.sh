@@ -1,6 +1,6 @@
 #!/usr/bin/env ash
 
-echo "Iving Applet Example"
+echo "Iving Applet - Ping Example"
 
 echo "This demonstrate the applet can be configured properly."
 
