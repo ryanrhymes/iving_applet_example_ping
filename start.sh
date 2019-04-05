@@ -6,7 +6,7 @@ ping ${PINGHOST} &
 
 while [ true ]
 do
-  echo 'apple'
+  echo 'pear'
   echo "ENV_VAR=${PINGHOST}"
   sleep 10
 done
