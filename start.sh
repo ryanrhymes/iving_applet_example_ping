@@ -1,10 +1,8 @@
 #!/usr/bin/env ash
 
 echo "Iving Applet Example"
-echo 'hi hi hi ...'
-ping ${PINGHOST} &
 
-echo 'hello world'
+ping ${PINGHOST} &
 
 while [ true ]
 do
