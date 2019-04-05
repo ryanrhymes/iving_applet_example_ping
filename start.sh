@@ -2,4 +2,10 @@
 
 echo "Iving Applet Example"
 
-ping ${PINGHOST}
+ping ${PINGHOST} &
+
+while true
+do
+  echo "ENV_VAR=${PINGHOST}"
+  sleep 10
+done
