@@ -10,6 +10,6 @@ echo "This demostrates the image can be rebuilt properly."
 
 while [ true ]
 do
-  echo "ENV_VAR=${PINGHOST}"
+  echo "ENV_VAR=${PINGHOST}, IVING_DEVICE_HOSTNAME=${IVING_DEVICE_HOSTNAME}"
   sleep 10
 done
