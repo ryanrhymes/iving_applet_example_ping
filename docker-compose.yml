@@ -7,3 +7,5 @@ services:
       dockerfile: ./dockerfile
     env_file:
       - ./config.env
+    deploy:
+      replicas: 4
