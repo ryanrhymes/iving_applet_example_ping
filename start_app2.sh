@@ -2,7 +2,7 @@
 
 echo "Iving Applet - Ping Example App 2"
 
-echo "This demonstrate the applet can be configured properly."
+echo "This demonstrate the runtime variables can be configured properly."
 
 while [ true ]
 do
