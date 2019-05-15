@@ -1,0 +1,8 @@
+FROM alpine:latest
+
+RUN apk add --update iputils
+
+WORKDIR /root/
+COPY ./start_app2.sh start_app2.sh
+
+ENTRYPOINT [ "ash", "start_app2.sh" ]

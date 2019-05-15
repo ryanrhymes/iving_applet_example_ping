@@ -1,9 +1,17 @@
 version: '3.7'
 
 services:
-  app:
+
+  app1:
     build:
       context: .
-      dockerfile: ./dockerfile
+      dockerfile: ./dockerfile_app1
+    env_file:
+      - ./config.env
+
+  app2:
+    build:
+      context: .
+      dockerfile: ./dockerfile_app2
     env_file:
       - ./config.env
